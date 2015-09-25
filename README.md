@@ -9,8 +9,6 @@ To build a Docker image:
 
 To run
 
-    $ docker run --rm -v ~/data:/data -w /data uproc uproc-dna
-
     $ docker run --rm -v /usr/local/imicrobe/data/uproc:/data 
       -v ~/data:/work -w /work uproc uproc-dna /data/uproc/kegg \
       /data/uproc/model /work/prodigal.nuc -o uproc-dna-out
